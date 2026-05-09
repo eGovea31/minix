@@ -21,6 +21,8 @@
  */
 
 EXTERN struct schedproc {
+	unsigned cpu_usage;
+
 	endpoint_t endpoint;	/* process endpoint id */
 	endpoint_t parent;	/* parent endpoint id */
 	unsigned flags;		/* flag bits */
